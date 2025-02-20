@@ -1,0 +1,145 @@
+/* App.css */
+
+/* Fond général et typographie */
+body {
+  background-color: #121212; /* Fond très sombre pour un effet de profondeur */
+  color: #e0e0e0; /* Texte clair pour le contraste */
+  font-family: 'Roboto', sans-serif; /* Utilisation d'une police moderne */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+h1 {
+  color: #1e90ff; /* Bleu futuriste */
+  margin-top: 20px;
+  font-size: 3rem;
+}
+
+/* Style pour la barre de navigation */
+nav {
+  background-color: #1c1c1c; /* Fond sombre pour la barre de navigation */
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre portée pour l'effet de profondeur */
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  position: relative; /* Nécessaire pour le positionnement absolu des sous-menus */
+}
+
+nav ul li a {
+  color: #1e90ff; /* Bleu futuriste pour les liens */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 8px 12px;
+  border-radius: 20px; /* Bordures arrondies pour les liens */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #1e90ff; /* Fond bleu futuriste sur hover */
+  color: #fff; /* Texte en blanc sur fond bleu */
+  box-shadow: 0 0 10px rgba(30, 144, 255, 0.8); /* Éclairage autour du lien */
+}
+
+nav ul li button {
+  background-color: #ff6f61; /* Couleur attrayante pour le bouton de déconnexion */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px; /* Bordures arrondies pour le bouton */
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav ul li button:hover {
+  background-color: #e55d50; /* Couleur plus foncée sur hover */
+  box-shadow: 0 0 10px rgba(255, 111, 97, 0.8); /* Éclairage autour du bouton */
+}
+
+/* Style pour les sous-menus */
+nav ul li ul {
+  display: none; /* Cache les sous-menus par défaut */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333; /* Fond sombre pour le sous-menu */
+  padding: 0;
+  border-radius: 8px; /* Coins arrondis pour le sous-menu */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Ombre pour plus de profondeur */
+  z-index: 1000; /* Assure que le sous-menu reste au-dessus des autres éléments */
+}
+
+nav ul li:hover ul {
+  display: block; /* Affiche le sous-menu au survol */
+}
+
+nav ul li ul li {
+  padding: 10px 20px;
+  margin: 0;
+}
+
+nav ul li ul li a {
+  text-decoration: none;
+  color: #e0e0e0; /* Couleur claire pour les liens dans le sous-menu */
+  display: block; /* Assure que le lien occupe toute la largeur de l'élément */
+  border-radius: 4px; /* Coins arrondis pour les éléments de sous-menu */
+  transition: background-color 0.3s; /* Effet de transition pour le fond */
+}
+
+nav ul li ul li a:hover {
+  background-color: #1e90ff; /* Couleur de fond bleue au survol */
+  color: #fff; /* Texte en blanc sur fond bleu */
+}
+
+/* Ajouter un espace entre les sous-menus et le menu principal */
+nav ul li {
+  margin-bottom: 15px;
+}
+
+/* Style pour les composants */
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: #1e1e1e;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  margin: 10px;
+}
+
+.card h2 {
+  color: #1e90ff;
+}
+
+.card p {
+  color: #b0b0b0;
+}
+
+/* Styles spécifiques pour le texte de bienvenue et l'ID utilisateur */
+.user-info {
+  text-align: auto; /* Aligne le texte à gauche */
+  font-size: 1.5rem; /* Augmente la taille de la police */
+  font-weight: bold; /* Met le texte en gras */
+  margin: 10px 0; /* Ajoute un espace au-dessus et en dessous du texte */
+}
+
+/* Spécifique à l'ID utilisateur */
+.user-id {
+  color: white; /* Ajoute une couleur distinctive pour l'ID */
+}

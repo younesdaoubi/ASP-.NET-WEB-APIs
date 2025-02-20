@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "gIAXQGp19HQhsTE+mzcKfuvbmn0ytzVR3sqGftCrVvI=",
+  "Source": "SpaceManagement",
+  "BasePath": "_content/SpaceManagement",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SpaceManagement\\wwwroot",
+      "Source": "SpaceManagement",
+      "ContentRoot": "C:\\Users\\youyo\\source\\repos\\BAC3_2324_Q5_PROJETDOTNET_DAOUBI\\SpaceManagement\\wwwroot\\",
+      "BasePath": "_content/SpaceManagement",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\youyo\\source\\repos\\BAC3_2324_Q5_PROJETDOTNET_DAOUBI\\SpaceManagement\\wwwroot\\earth.jpg",
+      "SourceId": "SpaceManagement",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\youyo\\source\\repos\\BAC3_2324_Q5_PROJETDOTNET_DAOUBI\\SpaceManagement\\wwwroot\\",
+      "BasePath": "_content/SpaceManagement",
+      "RelativePath": "earth.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\earth.jpg"
+    }
+  ]
+}

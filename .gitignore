@@ -1,0 +1,8 @@
+# Ignore Visual Studio files
+.vs/
+
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+

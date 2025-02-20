@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\youyo\\source\\repos\\BAC3_2324_Q5_PROJETDOTNET_DAOUBI\\SpaceManagement\\wwwroot\\earth.jpg",
+      "PackagePath": "staticwebassets\\earth.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.SpaceManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.SpaceManagement.props",
+      "PackagePath": "build\\SpaceManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.SpaceManagement.props",
+      "PackagePath": "buildMultiTargeting\\SpaceManagement.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.SpaceManagement.props",
+      "PackagePath": "buildTransitive\\SpaceManagement.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

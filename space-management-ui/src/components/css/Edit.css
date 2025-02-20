@@ -1,0 +1,104 @@
+/* Style général pour le formulaire */
+.container {
+    padding: 30px;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #1c1c1c; /* Fond sombre */
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+    color: #e0e0e0; /* Texte clair */
+}
+
+/* Titre */
+h1 {
+    color: #1e90ff; /* Bleu futuriste */
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    text-shadow: 0 2px 5px rgba(30, 144, 255, 0.8); /* Effet de lueur */
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #1e90ff; /* Bleu futuriste pour les labels */
+    font-size: 1.2rem;
+}
+
+/* Styles pour tous les champs de texte, y compris les champs de date et de sélection */
+input[type="text"], input[type="number"], textarea, select, input[type="date"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 25px;
+    background-color: #2a2a2a; /* Fond sombre pour tous les champs */
+    border: none;
+    border-radius: 10px;
+    color: #e0e0e0; /* Texte clair pour tous les champs */
+    font-size: 1.1rem;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transition pour un effet d'interaction */
+}
+
+/* Effet au focus pour tous les champs */
+input[type="text"]:focus, input[type="number"]:focus, textarea:focus, select:focus, input[type="date"]:focus {
+    background-color: #1e90ff; /* Fond bleu lorsqu'un champ est sélectionné */
+    color: #ffffff; /* Texte blanc sur focus */
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.8); /* Effet de lueur sur focus */
+}
+
+/* Styles spécifiques pour les champs */
+input[name="name"], input[name="xCoordinate"], input[name="yCoordinate"], input[name="zCoordinate"], 
+input[name="nextAppearance"], input[name="tailColor"], textarea[name="description"], 
+input[name="orbitType"], input[name="function"], input[name="mainStars"], input[name="bestViewingMonths"],input[name="mission"],
+input[name="originPlanet"] {
+    background-color: #2a2a2a; /* Assure que le fond est sombre */
+    color: #e0e0e0; /* Texte clair */
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 1.1rem;
+    border: none;
+    margin-bottom: 25px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Effet au focus pour les champs spécifiques */
+input[name="name"]:focus, input[name="xCoordinate"]:focus, input[name="yCoordinate"]:focus, input[name="zCoordinate"]:focus, 
+input[name="nextAppearance"]:focus, input[name="tailColor"]:focus, input[name="orbitType"]:focus, 
+input[name="function"]:focus, input[name="mainStars"]:focus, input[name="bestViewingMonths"]:focus,
+input[name="originPlanet"]:focus {
+    background-color: #1e90ff; /* Fond bleu futuriste lorsqu'un champ est sélectionné */
+    color: #ffffff; /* Texte blanc sur focus */
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.8); /* Effet de lueur sur focus */
+}
+
+/* Styles pour le bouton de soumission */
+button[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border: none;
+    box-shadow: 0 5px 15px rgba(30, 144, 255, 0.4); /* Ajoute une ombre douce au bouton */
+    width: 100%; /* Assure que le bouton occupe toute la largeur */
+    margin-top: 20px; /* Ajoute un espace entre le champ Fonction et le bouton */
+}
+
+button[type="submit"]:hover {
+    background-color: #0057ad; /* Bleu plus foncé sur hover */
+    box-shadow: 0 0 20px rgba(30, 144, 255, 0.8); /* Accentuation de l'effet de lueur */
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98); /* Légère réduction de l'échelle pour un effet de clic */
+}
+
+/* Styles pour les messages d'erreur */
+.error {
+    color: #ff6f61; /* Rouge pour les messages d'erreur */
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}

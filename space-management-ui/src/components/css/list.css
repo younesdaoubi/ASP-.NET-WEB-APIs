@@ -1,0 +1,179 @@
+/* list.css */
+
+/* Style général pour les listes */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    color: #1e90ff; /* Bleu futuriste */
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color: #1e90ff; /* Bleu futuriste pour les titres des items */
+}
+
+a {
+    color: #1e90ff; /* Liens en bleu futuriste */
+    text-decoration: none;
+    transition: color 0.3s;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+a:hover {
+    color: #fff; /* Texte blanc sur hover */
+    background-color: #1e90ff; /* Fond bleu futuriste */
+    box-shadow: 0 0 8px rgba(30, 144, 255, 0.8); /* Éclairage sur hover */
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px; /* Bordures arrondies */
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Bouton Modifier et Détails */
+.modify-button, .details-button {
+    background-color: #0660bb; /* Bleu pour le bouton Modifier et Détails */
+    color: white;
+}
+
+.modify-button:hover, .details-button:hover {
+    background-color: #0057ad; /* Bleu plus foncé sur hover */
+    color: white;
+}
+
+/* Bouton Supprimer */
+.delete-button {
+    background-color: #f83a3a; /* Rouge pour le bouton Supprimer */
+}
+
+.delete-button:hover {
+    background-color: #b10f00; /* Rouge plus foncé sur hover */
+}
+
+.error {
+    color: #ff6f61; /* Rouge pour les messages d'erreur */
+    margin: 10px 0;
+}
+
+.item-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-list li {
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.item-list img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 200px; /* Agrandi la largeur de l'image */
+    height: 200px; /* Agrandi la hauteur de l'image */
+}
+
+.item-list div {
+    margin-left: 20px;
+}
+
+/* Noms en gras */
+.item-list h2 {
+    font-weight: bold;
+}
+ 
+ 
+
+  /* Bouton Ajouter une Planète */
+.add-link {
+    background-color: #1e90ff; /* Bleu pour le bouton Ajouter une Planète */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px; /* Espace de 40px sous le bouton */
+ }
+
+.add-link:hover {
+    background-color: #0057ad; /* Bleu plus foncé sur hover */
+}
+
+.add-link:active {
+    background-color: #1e90ff; /* Bleu lors du clic */
+}
+
+
+/* List.css */
+
+.item-list-item {
+    background: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.planet-image {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 200px; /* Taille de l'image alignée avec PlanetList */
+    height: 200px; /* Taille de l'image alignée avec PlanetList */
+}
+
+.planet-details {
+    margin-left: 20px;
+}
+
+.planet-actions {
+    margin-top: 10px;
+}
+
+.add-link {
+    background-color: #1e90ff; /* Bleu pour le bouton Ajouter une Lune */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 40px; /* Espace sous le bouton */
+}
+
+.add-link:hover {
+    background-color: #0057ad;
+}
+
+.add-link:active {
+    background-color: #1e90ff;
+}
+
+.notif-detail{
+    text-align: center;
+}

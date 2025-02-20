@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceManagement", "SpaceManagement\SpaceManagement.csproj", "{A9C0E686-865A-4A7D-8901-E56C38A7F49D}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "SpaceManagementUI", "..\..\..\Users\youyo\source\repos\BAC3_2324_Q5_PROJETDOTNET_DAOUBI\space-management-ui\SpaceManagementUI.njsproj", "{8BC46965-FC47-4313-B064-64CE0A1FB0C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceManagementAuthentication", "SpaceManagementAuthentication\SpaceManagementAuthentication.csproj", "{6B329834-D555-46AB-B267-09B6D6988749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9C0E686-865A-4A7D-8901-E56C38A7F49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9C0E686-865A-4A7D-8901-E56C38A7F49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9C0E686-865A-4A7D-8901-E56C38A7F49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9C0E686-865A-4A7D-8901-E56C38A7F49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BC46965-FC47-4313-B064-64CE0A1FB0C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BC46965-FC47-4313-B064-64CE0A1FB0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BC46965-FC47-4313-B064-64CE0A1FB0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BC46965-FC47-4313-B064-64CE0A1FB0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B329834-D555-46AB-B267-09B6D6988749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B329834-D555-46AB-B267-09B6D6988749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B329834-D555-46AB-B267-09B6D6988749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B329834-D555-46AB-B267-09B6D6988749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EC1210E-30F0-47AF-99A0-1E3126A2A311}
+	EndGlobalSection
+EndGlobal
